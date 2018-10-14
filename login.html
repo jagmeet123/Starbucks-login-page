@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+       <style>
+           body{
+           margin:0;
+           padding:0;    
+           background:url("star.jpg");
+           background-size:cover;
+           OVERFLOW:SCROLL
+
+           }
+          .box{
+              background:rgba(0,0,0,0.5);
+              color:#fff;
+              width:320px;
+              height:420px;
+              top:30%;
+              left:37%;RIGHT:63%;
+              position:absolute;
+             
+          }
+
+          .user{
+                 width:100px;
+                 height:100px;
+                 position:absolute;
+                 top:-50px;
+                 left:33%
+
+
+             }
+
+           h1{
+              color:green;
+             
+             border:hidden ;
+             width:300px ;
+             padding-left:5px;
+             transition: 1s transform;
+              -webkit-transition:1s transform;
+              left:37%;Position: absolute;
+              RIGHT:63%;
+              BOTTOM:85%;
+              font-size:40px
+             }
+             
+          
+          h1:hover{
+              transform: rotate(-180deg) scale(2);
+          
+            
+          }
+          
+          ::placeholder{
+              opacity:0.4;
+              color:black
+          }
+          input.pass ::placeholder{
+          opacity:0.1;
+          
+
+          }
+          ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color:black;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    margin-top:50;
+}
+
+li a.LU {
+    display: block;
+    color:greenyellow;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+    
+}
+li:first-child{
+    padding-top:0px
+}
+
+ul li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+          
+       </style>
+  </head>
+     <body>
+         <div style="background-color:white;display:inline-block;width:15%">
+ <img src="star2.jpg" style="height:100px;width:100px;padding:3px;margin-left:40px">        
+<ul>
+ 
+        <li><a class="LU" href="#news" CLASS="active">COFFEE</a></li>
+        <li><a class="LU" href="#contact">MENU</a></li>
+        <li><a class="LU" href="#about">COFFEEHOUSE</a></li>
+        <li><a class="LU"  href="#home">RESPONSIBILITY</a></li>
+         <li><a class="LU" href="#home">CARD</a></li>
+        <li><a class="LU" href="#home">ABOUT US</a></li>
+      </ul>
+      </div>
+         
+        <h1>Starbucks Login</h1>
+         <div class="box">
+             <img src="star2.jpg" class="user">
+             
+            <div> 
+             <h2 style="text-align:center;margin-top:70px;-webkit-text-stroke:1px green;font-size:25px;font-family:Arial, Helvetica, sans-serif">Login to your Account</h2>
+             <form class="forms" style="padding-LEFT:55px">
+                
+                <p style="font-size:18px"> Login-I D :</p> <input type="text" name="LOgin-ID" placeholder="Enter your Login-ID " value"rihaan123"  pattern="^[A-Za-z0-9-_@./&+-]+$" style="border:none;padding:6px 2px;width:200px;outline:none;background:transparent;border-bottom:2px solid"/>
+               <p>
+
+               </p>
+                <p>PASSWORD:</p> <input class="pass" type="password" placeholder="Enter your password" name="pasword"  style="border:none;padding:6px 2px;width:200px;outline:none;background:transparent;border-bottom:2px solid">
+                 <p>
+
+                 <div style="margin-top:20%;">
+                 <input type="submit" value="Login" STYLE=" margin-left:0%; border:1px solid; width:100px;padding:5px;outline:none;border-radius:8px"/>
+                 <input type="Reset" value="Reset" STYLE=" border:1px solid; width:100px;padding:5px;margin-left:5px;outline:none;border-radius:8px"/>
+                 </div>
+
+             <div class="forget">
+                 <a href="https://help.myspace.com/hc/en-us/articles/201956084-Forgot-Password"  style="position:absolute;bottom:4px;color:white;left:calc(150px)">FORGET PASSWORD?</a>
+                </div>
+            </form>
+             
+
+     </body>
+</html>
+
+
